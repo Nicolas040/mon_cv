@@ -74,6 +74,7 @@ header {
 
 #formation li span.time {
     text-decoration: underline;
+    font-style: italic;
 
 }
 
