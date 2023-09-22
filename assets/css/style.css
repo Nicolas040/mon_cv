@@ -62,7 +62,7 @@ header {
 }
 
 #competences {
-    height: 11cm;
+    height: 13.3cm;
     border: 1px solid red;
     border: 5px solid rgb(139, 188, 211);
     border-radius: 5mm;
@@ -83,4 +83,34 @@ header {
     text-decoration: underline;
     color: blue;
     padding-left: 3mm;
+}
+
+#competences table {
+    width: 100%;
+    border-spacing: 3mm;
+    border-bottom: 1mm;
+}
+
+#competences table td {
+    width: 50%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border-bottom: 1px solid;
+    padding-bottom: 3mm;
+  }
+
+#colonnes * {
+    text-align: center;
+    font-size: 6mm;
+    font-weight: bold;
+    text-decoration: underline;
+    color: blue;
+    border: none;
+    padding-bottom: 5mm;
+}
+
+#lastrow, #lastrow * {
+    border: none;
 }
