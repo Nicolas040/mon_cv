@@ -154,16 +154,17 @@ footer {
 }
 
 .footerdiv li {
-    list-style-type: none;
+    list-style-type: square;
     margin: 1mm 0;
 }
 
-.stress {
+li.stress {
     font-weight: bold;
     color: blue;
     font-size: large;
     text-decoration: underline;
     margin: 0 0 3mm 0;
+    list-style-type: none;
 }
 
 .domaine {
