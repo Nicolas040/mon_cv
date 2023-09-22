@@ -120,3 +120,57 @@ table, th, td {
 #lastrow, #lastrow * {
     border: none;
 }
+
+footer {
+    height: 3cm;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5mm;
+    padding: 0 5mm;
+    background: linear-gradient(135deg, rgba(187,211,236,1) 0%, rgba(255,255,255,1) 25%, rgba(187,211,236,1) 50%, rgba(255,255,255,1) 75%, rgba(187,211,236,1) 100%);
+}
+
+#langues {
+    width: 20%;
+}
+
+#informatique {
+    width: 35%;
+}
+
+#divers {
+    width: 40%;
+}
+
+.footerdiv {
+    
+    height: 100%;
+}
+
+.footerdiv ul {
+    padding: 0;
+    margin: 0;
+}
+
+.footerdiv li {
+    list-style-type: none;
+    margin: 1mm 0;
+}
+
+.stress {
+    font-weight: bold;
+    color: blue;
+    font-size: large;
+    text-decoration: underline;
+    margin: 0 0 3mm 0;
+}
+
+.domaine {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+
+
+
+
