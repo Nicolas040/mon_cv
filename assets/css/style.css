@@ -9,6 +9,8 @@ header {
     height: 4cm;
     background: linear-gradient(135deg, rgba(12,118,228,1) 0%, rgba(165,197,223,1) 35%, rgba(255,255,255,1) 100%);
     padding: 2mm;
+    display:flex;
+    justify-content: flex-start;
 }
 
 #photo {
@@ -18,4 +20,18 @@ header {
 
 #photo img {
     height: 100%;
+    margin-right: 5mm;
+}
+
+#telephone {
+    margin-bottom: 0;
+}
+
+#mail {
+    margin-top: 1mm;
+}
+
+#coordonnees p {
+    font-style: italic;
+    font-size: 5mm;
 }
