@@ -11,6 +11,7 @@ header {
     padding: 2mm;
     display:flex;
     justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 #photo {
@@ -34,4 +35,12 @@ header {
 #coordonnees p {
     font-style: italic;
     font-size: 5mm;
+}
+
+#titre {
+    width: 100%;
+}
+
+#titre * {
+    text-align: center;
 }
