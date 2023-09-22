@@ -10,3 +10,12 @@ header {
     background: linear-gradient(135deg, rgba(12,118,228,1) 0%, rgba(165,197,223,1) 35%, rgba(255,255,255,1) 100%);
     padding: 2mm;
 }
+
+#photo {
+    height: 100%;
+}
+
+
+#photo img {
+    height: 100%;
+}
