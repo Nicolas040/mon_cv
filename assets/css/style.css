@@ -52,3 +52,14 @@ header {
 #titre h2 {
     font-style: italic;
 }
+
+#formation { 
+    height: 5cm;
+    border: 1px solid red;
+    margin-top: 5cm;
+}
+
+#competences {
+    height: 7cm;
+    border: 1px solid red;
+}
