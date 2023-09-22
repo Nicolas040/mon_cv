@@ -64,3 +64,20 @@ header {
     height: 7cm;
     border: 1px solid red;
 }
+
+#formation li {
+    margin-bottom: 5mm;
+}
+
+#formation li span {
+    text-decoration: underline;
+    
+}
+
+#formation p {
+    font-size: 6mm;
+    font-weight: bold;
+    text-decoration: underline;
+    color: blue;
+    padding-left: 3mm;
+}
