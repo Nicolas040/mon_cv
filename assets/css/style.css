@@ -72,9 +72,16 @@ header {
     margin-bottom: 5mm;
 }
 
-#formation li span {
+#formation li span.time {
     text-decoration: underline;
+    font-style: italic;
 
+}
+
+#topic {
+    font-style: italic;
+    font-weight: bold;
+    color: blueviolet;
 }
 
 #formation p {
@@ -97,20 +104,75 @@ header {
 }
 
 table, th, td {
-    border-bottom: 1px solid;
+    border-bottom: 1px dotted;
     padding-bottom: 3mm;
   }
 
 #colonnes * {
-    text-align: center;
+    text-align: left;
     font-size: 6mm;
     font-weight: bold;
     text-decoration: underline;
     color: blue;
     border: none;
-    padding-bottom: 5mm;
+    padding-bottom: 3mm;
 }
 
 #lastrow, #lastrow * {
     border: none;
 }
+
+footer {
+    height: 3cm;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5mm;
+    padding: 0 5mm;
+    background: linear-gradient(135deg, rgba(187,211,236,1) 0%, rgba(255,255,255,1) 25%, rgba(187,211,236,1) 50%, rgba(255,255,255,1) 75%, rgba(187,211,236,1) 100%);
+}
+
+#langues {
+    width: 20%;
+}
+
+#informatique {
+    width: 35%;
+}
+
+#divers {
+    width: 40%;
+}
+
+.footerdiv {
+    
+    height: 100%;
+}
+
+.footerdiv ul {
+    padding: 0;
+    margin: 0;
+}
+
+.footerdiv li {
+    list-style-type: square;
+    margin: 1mm 0;
+}
+
+li.stress {
+    font-weight: bold;
+    color: blue;
+    font-size: large;
+    text-decoration: underline;
+    margin: 0 0 3mm 0;
+    list-style-type: none;
+}
+
+.domaine {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+
+
+
+
