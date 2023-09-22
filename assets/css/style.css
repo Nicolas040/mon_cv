@@ -103,7 +103,7 @@ header {
 }
 
 table, th, td {
-    border-bottom: 1px solid;
+    border-bottom: 1px dotted;
     padding-bottom: 3mm;
   }
 
