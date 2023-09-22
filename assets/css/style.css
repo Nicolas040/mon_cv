@@ -56,13 +56,16 @@ header {
 
 #formation { 
     height: 5cm;
-    border: 1px solid red;
-    margin-top: 5cm;
+    margin: 5cm 0 5mm 0;
+    border: 5px solid rgb(139, 188, 211);
+    border-radius: 5mm;
 }
 
 #competences {
-    height: 7cm;
+    height: 11cm;
     border: 1px solid red;
+    border: 5px solid rgb(139, 188, 211);
+    border-radius: 5mm;
 }
 
 #formation li {
@@ -71,7 +74,7 @@ header {
 
 #formation li span {
     text-decoration: underline;
-    
+
 }
 
 #formation p {
