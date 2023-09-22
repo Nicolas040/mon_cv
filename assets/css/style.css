@@ -72,9 +72,15 @@ header {
     margin-bottom: 5mm;
 }
 
-#formation li span {
+#formation li span.time {
     text-decoration: underline;
 
+}
+
+#topic {
+    font-style: italic;
+    font-weight: bold;
+    color: blueviolet;
 }
 
 #formation p {
