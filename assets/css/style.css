@@ -108,7 +108,7 @@ table, th, td {
     text-decoration: underline;
     color: blue;
     border: none;
-    padding-bottom: 5mm;
+    padding-bottom: 3mm;
 }
 
 #lastrow, #lastrow * {
