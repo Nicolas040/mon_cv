@@ -102,7 +102,7 @@ table, th, td {
   }
 
 #colonnes * {
-    text-align: center;
+    text-align: left;
     font-size: 6mm;
     font-weight: bold;
     text-decoration: underline;
