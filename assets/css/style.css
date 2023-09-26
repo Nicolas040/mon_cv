@@ -84,6 +84,12 @@ header {
     color: blueviolet;
 }
 
+#cyber {
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(43, 70, 226);
+}
+
 #formation p {
     font-size: 6mm;
     font-weight: bold;
