@@ -11,29 +11,20 @@ body {
 
 header {
     height: 3cm;
-    background: linear-gradient(135deg, rgba(12,118,228,1) 0%, rgba(165,197,223,1) 35%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(135deg, rgba(187,211,236,1) 0%, rgba(255,255,255,1) 100%);
     padding: 2mm;
     display:flex;
     justify-content: flex-start;
     flex-wrap: wrap;
 }
 
-#photo {
-    height: 100%;
-}
-
-
-#photo img {
-    height: 100%;
-    margin-right: 5mm;
-}
-
-#telephone {
+#coordonnees h2 {
     margin-bottom: 0;
 }
 
-#mail {
-    margin-top: 1mm;
+#telephone,#ville,#mail {
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 #coordonnees p {
@@ -78,7 +69,7 @@ header {
 
 }
 
-#topic {
+.topic {
     font-style: italic;
     font-weight: bold;
     color: blueviolet;
