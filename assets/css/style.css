@@ -18,6 +18,10 @@ header {
     flex-wrap: wrap;
 }
 
+#coordonnees h2 {
+    margin-bottom: 0;
+}
+
 #telephone,#ville,#mail {
     margin-bottom: 0;
     margin-top: 0;
