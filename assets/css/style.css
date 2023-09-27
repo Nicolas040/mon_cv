@@ -18,7 +18,7 @@ header {
     flex-wrap: wrap;
 }
 
-#telephone {
+#telephone,#ville {
     margin-bottom: 0;
 }
 
