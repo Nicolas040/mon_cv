@@ -18,13 +18,9 @@ header {
     flex-wrap: wrap;
 }
 
-#telephone,#ville {
+#telephone,#ville,#mail {
     margin-bottom: 0;
     margin-top: 0;
-}
-
-#mail {
-    margin-top: 1mm;
 }
 
 #coordonnees p {
