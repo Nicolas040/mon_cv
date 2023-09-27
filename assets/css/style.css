@@ -68,7 +68,7 @@ header {
 
 }
 
-#topic {
+.topic {
     font-style: italic;
     font-weight: bold;
     color: blueviolet;
